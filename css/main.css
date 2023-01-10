@@ -527,8 +527,8 @@ video {
 .flex {
   display: flex;
 }
-.h-screen {
-  height: 100vh;
+.h-full {
+  height: 100%;
 }
 .h-auto {
   height: auto;
