@@ -578,11 +578,18 @@ video {
 .place-items-center {
   place-items: center;
 }
+.bg-navy {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 13 152 / var(--tw-bg-opacity));
+}
 .bg-cover {
   background-size: cover;
 }
 .bg-center {
   background-position: center;
+}
+.p-8 {
+  padding: 2rem;
 }
 .py-8 {
   padding-top: 2rem;
@@ -599,8 +606,18 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.font-medium {
+  font-weight: 500;
+}
+.leading-\[0\.9\] {
+  line-height: 0.9;
+}
 .leading-none {
   line-height: 1;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
