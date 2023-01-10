@@ -524,6 +524,9 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .flex {
   display: flex;
 }
@@ -572,11 +575,17 @@ video {
 .flex-col {
   flex-direction: column;
 }
+.place-content-center {
+  place-content: center;
+}
 .place-content-between {
   place-content: space-between;
 }
 .place-items-center {
   place-items: center;
+}
+.items-center {
+  align-items: center;
 }
 .bg-navy {
   --tw-bg-opacity: 1;
@@ -605,6 +614,10 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .font-medium {
   font-weight: 500;
@@ -663,5 +676,11 @@ video {
 }
 h1, h2, h3{
 	font-family: 'Vacation';
+}
+@media (min-width: 1024px) {
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
