@@ -617,6 +617,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-4 {
+  gap: 1rem;
+}
 .-space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(-0.25rem * var(--tw-space-x-reverse));
@@ -918,6 +921,10 @@ h1, h2, h3{
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-14 {
+    gap: 3.5rem;
   }
 
   .md\:-space-x-4 > :not([hidden]) ~ :not([hidden]) {
