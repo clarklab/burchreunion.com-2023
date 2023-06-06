@@ -660,8 +660,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(15 13 152 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'images\/bg-mobile\.webp\'\)\] {
-  background-image: url('images/bg-mobile.webp');
+.bg-\[url\(\'\/images\/bg-mobile\.webp\'\)\] {
+  background-image: url('/images/bg-mobile.webp');
 }
 .bg-cover {
   background-size: cover;
@@ -862,8 +862,8 @@ h1, h2, h3{
     background-color: rgb(236 161 255 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-\[url\(\'images\/bg-mobile-dark\.webp\'\)\] {
-    background-image: url('images/bg-mobile-dark.webp');
+  .dark\:bg-\[url\(\'\/images\/bg-mobile-dark\.webp\'\)\] {
+    background-image: url('/images/bg-mobile-dark.webp');
   }
 
   .dark\:text-sunset {
@@ -933,8 +933,8 @@ h1, h2, h3{
     margin-left: calc(-1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:bg-\[url\(\'images\/bg-desktop\.webp\'\)\] {
-    background-image: url('images/bg-desktop.webp');
+  .md\:bg-\[url\(\'\/images\/bg-desktop\.webp\'\)\] {
+    background-image: url('/images/bg-desktop.webp');
   }
 
   .md\:px-8 {
@@ -983,8 +983,8 @@ h1, h2, h3{
       display: none;
     }
 
-    .dark\:md\:bg-\[url\(\'images\/bg-desktop-dark\.webp\'\)\] {
-      background-image: url('images/bg-desktop-dark.webp');
+    .dark\:md\:bg-\[url\(\'\/images\/bg-desktop-dark\.webp\'\)\] {
+      background-image: url('/images/bg-desktop-dark.webp');
     }
   }
 }
